@@ -1,0 +1,119 @@
+/* FormularioRegistro.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-image: url('./assets/pediatria.jpg'); /* Cambia esta ruta a la ubicación de tu imagen */
+  background-size: cover; /* Asegura que la imagen cubra toda la pantalla */
+  margin: 0;
+  padding: 0;
+}
+  
+  .formulario-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #cdf1ff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  h2 {
+    color: #4a90e2;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="tel"],
+  input[type="number"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+  }
+  
+  input[type="number"] {
+    width: 48%;
+    margin-right: 2%;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  .checkbox {
+    display: flex;
+    align-items: center;
+  }
+  
+  .pruebas-container {
+    background-color: #e9f7fe;
+    border: 1px solid #4a90e2;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .pruebas-container h3 {
+    color: #4a90e2;
+    margin-bottom: 10px;
+  }
+  
+  .pruebas-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .pruebas-container li {
+    margin-bottom: 5px;
+  }
+  
+  .pruebas-container li a {
+    text-decoration: none;
+    color: #4a90e2;
+  }
+  
+  .pruebas-container li a:hover {
+    text-decoration: underline;
+  }
+  
+  .btn-registrar {
+    width: 100%;
+    padding: 10px;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .btn-registrar:hover {
+    background-color: #357abd;
+  }
+  
+  /* App.css */
+.form-group {
+  margin-bottom: 15px;
+}
+
+.edad-meses-container {
+  display: flex;
+  gap: 10px; /* Espacio entre los inputs */
+}
+
+.edad-meses-container input {
+  flex: 1; /* Hace que los inputs ocupen el mismo espacio */
+}
